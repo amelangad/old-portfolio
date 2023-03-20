@@ -63,12 +63,12 @@
   text-transform: uppercase;
   padding-bottom: 2rem;
 }
-.header .nav .menu__item:first-child {
-  padding-top: 1rem;
-}
-.header .nav .menu__item:first-child:hover {
+.header .nav .menu__item:hover {
   transform: scale(1.1);
   transition: all 1s ease;
+}
+.header .nav .menu__item:first-child {
+  padding-top: 1rem;
 }
 .header .nav .menu__item .menu__link {
   color: rgb(21, 21, 22);
