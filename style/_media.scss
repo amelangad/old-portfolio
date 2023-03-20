@@ -1,0 +1,81 @@
+@media only screen and (min-width: 768px) {
+
+  // About section
+  .about {
+    flex-direction: row-reverse;
+
+    .wrapper__desc {
+      margin-top: 3rem;
+      width: 50vw;
+      padding: 1rem;
+
+      .desc__content {
+        width: 60%;
+      }
+    }
+    .wrapper__svg {
+      width: 30%;
+    }
+  }
+
+  //Skills section
+
+  .skills{
+
+    &_header {
+      font-size: 3rem;
+    }
+    &__wrapper {
+    flex-direction: row;
+    width: 80%;
+
+    .card {
+      margin-bottom: 2rem;
+      width: 60vw;
+      height: 450px;
+      border-radius: 20px;
+      margin: 2rem;
+      box-shadow: 1px 0px 10px 2px rgb(11, 11, 11);
+      &:hover {
+        transform: scale(1.1);
+        background-color: rgba(3, 4, 58, 0.737);
+        transition: 1s ease-in-out;
+    }
+    }
+
+  }}
+
+
+  // Projects section
+  .projects {
+    &__content {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      .projects__item {
+        flex-basis: 40%;
+
+        .item__link {
+          .item__image { width: 600px;
+          padding: 1rem;}
+
+        }
+      }
+    }
+  }
+
+  //Footer
+  .footer__button{
+margin: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+
+  .footer__content--email,
+  .footer__content--phone {
+    font-size: .6rem;
+  }
+}

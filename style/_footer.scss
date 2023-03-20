@@ -1,0 +1,60 @@
+.footer {
+    width: 100vw;
+    height: auto;
+    bottom: 0;
+    background: $accent-color;
+    border-top-right-radius: 90%;
+    padding: 2rem;
+    padding-top: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+    &__button {
+        position: absolute;
+        right: .5rem;
+        top: .5rem;
+        background-color: rgba(255, 255, 255, 0.312);
+        color: $accent-color;
+        width: 4rem;
+        height: 4rem;
+        border: 2px solid $accent-color;
+        border-radius: 50%;
+        cursor: pointer;
+        animation: bounce .8s infinite ease-in-out alternate;
+
+        &:hover {
+            background-color: rgba(116, 115, 121, 0.163)
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .footer__header {
+            font-weight: bold;
+            font-size: 1.5rem;
+            padding-bottom: .5rem;
+
+            &:hover {
+                color: white;
+            }
+        }
+
+        .footer__content {
+            font-size: 1.2rem;
+            padding-top: 0.5rem;
+            font-weight: bold;
+
+            &--email, &--phone {
+                font-weight: normal;
+            }
+        }
+    }
+}
+
+;

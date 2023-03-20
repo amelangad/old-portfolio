@@ -1,0 +1,179 @@
+// Svg animations
+
+.svg__glasses {
+    animation: glass 3s ease infinite;
+
+}
+
+
+@keyframes glass {
+    0% {
+        transform: translateX(0);
+
+    }
+
+    50% {
+        transform: translateX(3px);
+
+    }
+
+    80% {
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateX(-3px);
+    }
+}
+
+;
+
+.svg__foot {
+    animation: foot 2s ease infinite;
+
+}
+
+
+@keyframes foot {
+    0% {
+        transform: translate(0);
+
+    }
+
+    30% {
+        transform: translateY(10px);
+
+    }
+
+    60% {
+        transform: translateY(15px);
+
+    }
+
+    100% {
+        transform: translateY(15px);
+
+
+    }
+}
+
+;
+
+.svg__hair {
+
+    animation: hair 2s ease infinite;
+
+}
+
+
+@keyframes hair {
+    0% {
+        transform: translateX(0);
+
+
+    }
+
+    30% {
+        transform: translateX(1px);
+
+    }
+
+    60% {
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateX(-1px);
+
+
+    }
+}
+
+.svg__computer {
+
+    animation: computer 5s ease infinite;
+
+}
+
+
+@keyframes computer {
+    0% {
+        transform: translateX(0);
+
+
+    }
+
+    30% {
+        transform: translateX(10px);
+
+    }
+
+    60% {
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateX(-10px);
+
+
+    }
+}
+
+;
+
+
+//Menu animations
+
+@keyframes menu {
+    0% {
+        opacity: 0;
+        transform: scale(2)
+    }
+
+    50% {
+        opacity: .5
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1)
+    }
+
+    ;
+}
+
+//About module animations
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 80%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+// Scroll button
+@keyframes bounce {
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
